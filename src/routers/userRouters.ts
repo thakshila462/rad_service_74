@@ -5,6 +5,7 @@ import { authenticate } from "../middleware/auth"
 import { requireRole } from "../middleware/role"
 import { UserRole } from "../model/userModel"
 
+
 const router = Router()
 
 //PUBLIC
